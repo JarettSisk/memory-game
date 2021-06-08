@@ -1,0 +1,48 @@
+#game div {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+h1 {
+  color: rgb(124, 255, 255);
+}
+
+h2 {
+
+  margin: 0 10px 0 10px;
+  display: inline-block;
+  color: rgb(124, 255, 255);
+}
+
+span {
+  padding: 0 10px;
+}
+
+body {
+  background-color: rgb(20, 20, 20);
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+div {
+  transition: background-color .3s;
+  display: inline;
+}
+
+#great-job {
+  display: inline;
+  font-size: 2rem;
+  color:rgb(58, 255, 133);
+}
+
+#start-button {
+  height: 30px;
+  width: 80px;
+  margin: 0 10px;
+}
+
+#game {
+  display: block;
+}

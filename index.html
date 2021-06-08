@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Memory Game!</h1>
+    
+    <h2>Timer:<span id="timer">30</span></h2> 
+    <h2>Score:<span id="score">0</span></h2>
+    <button id="start-button">Play!</button>
+    <div id="difficulty-section">
+      <h2>Difficulty</h2>
+      <button class="difficulty-button" data-difficulty="3">Easy</button>
+      <button class="difficulty-button" data-difficulty="6">Med</button>
+      <button class="difficulty-button" data-difficulty="9">Hard</button>
+    </div>
+    <h2 id="great-job">Great job!</h2>
+   
+    <div id="game">
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
